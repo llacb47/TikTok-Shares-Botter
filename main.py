@@ -89,7 +89,7 @@ class TikTok:
 
         try:
             response = requests.post(
-                'https://api16-core-c-useast1a.tiktokv.com/aweme/v1/aweme/stats/?ac=WIFI&op_region=US&app_skin=white&', data=data, headers=headers
+                'https://api16-core-c-useast1a.tiktokv.com/aweme/v1/aweme/stats/?ac=WIFI&op_region=US&app_skin=white&', data=data, headers=headers, verify=False
             )
         except Exception as e:
             print(f'Error: {e}')
