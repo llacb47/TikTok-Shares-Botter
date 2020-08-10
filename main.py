@@ -81,9 +81,9 @@ class TikTok:
         )
         headers = {
             'Content-Type': 'application/x-www-form-urlencoded',
-            'x-common-params-v2': 'version_code=16.6.1&app_name=musical_ly&channel=App%20Store&devi'
-                                  f'ce_id={device_id}&aid=1233&os_version=13.5&device_platform=ip'
-                                  'hone&device_type=iPhone8,1',
+           # 'x-common-params-v2': 'version_code=16.6.1&app_name=musical_ly&channel=App%20Store&devi'
+           #                       f'ce_id={device_id}&aid=1233&os_version=13.5&device_platform=ip'
+           #                       'hone&device_type=iPhone8,1',
             'User-Agent': 'TikTok 16.6.1 rv:166103 (iPhone; iOS 13.5; es_US) Cronet'
         }
 
